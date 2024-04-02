@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+body {
+    background-color: #F5DAAB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculadora {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F2B263;
+    box-shadow: 3px 4px 5px 1px #000000a8;
+}
+.entrada {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultado {
+    background-color: rgb(0, 0, 0);
+    color: #ddd;
+    border-radius: 5px;
+    
+
+}
+#resultado {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#input_nome {
+    outline: none;
+    color: #212121;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+#input_altura {
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+#input_peso {
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+button {
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #ddd;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
