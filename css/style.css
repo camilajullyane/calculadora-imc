@@ -119,21 +119,21 @@ h1 {
     .entrada {
         flex-direction: column;
         gap: 10px;
-        align-items: center; /* Centraliza os elementos horizontalmente */
+        align-items: center; 
     }
 
     .entrada span {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centraliza os elementos horizontalmente */
+        align-items: center;
     }
 
     #input_nome, #input_altura, #input_peso {
-        width: 80%; /* Reduz a largura das caixas de entrada */
+        width: 80%; 
     }
 
     #calcular {
-        width: 80%; /* Reduz a largura do botão */
+        width: 80%; 
     }
 
     button:hover {
