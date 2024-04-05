@@ -42,6 +42,7 @@ body {
     padding: 10px;
     width: 50vh;
     max-width: 100%;
+    box-sizing: border-box;
     height: 15vh;
     
     
@@ -116,6 +117,7 @@ h1 {
     .calculadora {
         width: 90%;
         padding: 15px;
+        box-sizing: border-box;
     }
 
     .entrada {
@@ -135,8 +137,9 @@ h1 {
     }
 
     #calcular {
-        margin-top: 8px;
-        width: 80%; 
+        margin-top: 6px;
+        width: 90%; 
+        font-size: 1.6rem;
     }
 
     button:hover {
@@ -144,13 +147,11 @@ h1 {
         transition: none;
     }
     .resultado {
-        width: 96%;
-        max-width: 100%;
-
+        width: 100%;
         height: auto;
     }
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
