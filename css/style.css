@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .calculadora {
@@ -99,4 +99,41 @@ h1 {
 
 .resultado > span {
     padding: 20px;
+}
+
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calculadora {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .entrada {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .resultado {
+        width: 90%;
+        height: auto;
+    }
+
+    #input_nome, #input_altura, #input_peso {
+        width: 100%;
+    }
+
+    form > span {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
 }
